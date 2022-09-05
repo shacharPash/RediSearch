@@ -49,7 +49,7 @@ Optional statistics include:
 <summary><b>Return statistics about an index</b></summary>
 
 {{< highlight bash >}}
-127.0.0.1:6379> FT.INFO idx
+redis> FT.INFO idx
 1) index_name
  2) wikipedia
  3) index_options
