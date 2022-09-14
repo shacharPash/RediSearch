@@ -152,14 +152,14 @@ if set, does not scan and index.
 </details>
 
 <details open>
-<summary><code>SCHEMA {identifier} AS {attribute} {attribute type} {options...</code></summary> 
+<summary><code>SCHEMA {field_name} AS {alias} {field type} {options...</code></summary> 
 
 after the SCHEMA keyword, declares which fields to index:
 
- - `{identifier}` for hashes, is a field name within the hash.
-      For JSON, the identifier is a JSON Path expression.
+ - `{field_name}` for hashes, is a field name within the hash.
+      For JSON, the field_name is a JSON Path expression.
 
- - `AS {attribute}` defines the attribute associated to the identifier. For example, you can use this feature to alias a complex JSONPath expression with more memorable (and easier to type) name.
+ - `AS {alias}` defines the field associated to the field_name. For example, you can use this feature to alias a complex JSONPath expression with more memorable (and easier to type) name.
 
    Field types are:
 
