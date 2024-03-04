@@ -6,7 +6,7 @@ syntax: |
     [LOAD count field [field ...]] 
     [TIMEOUT timeout] 
     [ GROUPBY nargs property [property ...] [ REDUCE function nargs arg [arg ...] [AS name] [ REDUCE function nargs arg [arg ...] [AS name] ...]] ...]] 
-    [ SORTBY nargs [ property ASC | DESC [ property ASC | DESC ...]] [MAX num] [WITHCOUNT] 
+    [ SORTBY nargs [ property ASC | DESC [ property ASC | DESC ...]] [MAX num] [WITHCOUNT] ]
     [ APPLY expression AS name [ APPLY expression AS name ...]] 
     [ LIMIT offset num] 
     [FILTER filter] 
